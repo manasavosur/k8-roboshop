@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mongodb
   namespace: roboshop
-  # these labels are replicaset labels
+  # these labels are deployment labels
   labels:
     project: roboshop
     tier: db
